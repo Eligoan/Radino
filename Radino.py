@@ -41,7 +41,7 @@ class Graphe(dict):
 					self.simplify_cycle([creditor,debtor])
 
 	def detect_communities(self):
-		#TODO
+		#TODO TEST
 		communities=[]
 
 	def simplify_as_fuck(self,chemin1,chemin2):
